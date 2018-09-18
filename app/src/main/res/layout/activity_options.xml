@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zunnorain.telcard_khokha.OptionsActivity.OptionsActivity">
+
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/shop_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bacground">
+
+                <ImageView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/image_shop"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_shopping_basket_black_24dp"/>
+
+                <TextView
+                    android:layout_below="@+id/image_shop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Shop Cards"
+                    android:textColor="@color/colorBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/cart_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bacground">
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/image_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/cart_icon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/ic_cart_logo"/>
+                    <ImageView
+                        android:id="@+id/notification_circle"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_circle_icon_24dp"/>
+
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="22dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="20dp">
+                        <TextView
+                            android:id="@+id/cart_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_below="@+id/image_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Cart"
+                    android:textColor="@color/colorBlack"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/history_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bacground">
+
+                <ImageView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/image_history"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_history_black_24dp"/>
+
+                <TextView
+                    android:layout_below="@+id/image_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="History Book"
+                    android:textColor="@color/colorBlack"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/setting_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bacground">
+
+                <ImageView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/image_setting"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_settings_black_24dp"/>
+
+                <TextView
+                    android:layout_below="@+id/image_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Account"
+                    android:textColor="@color/colorBlack"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

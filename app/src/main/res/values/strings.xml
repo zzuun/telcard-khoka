@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Telcard Khokha</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="history">History</string>
+    <string name="category">Select Category</string>
+    <string name="quantity">Select Quantity</string>
+    <string name="rupees">Rs</string>
+    <string name="totalPrice">Total Price</string>
+    <string name="buyNow">Buy Now</string>
+    <string name="usernamr">Enter Username</string>
+    <string name="phone">Enter Phone No.</string>
+    <string name="password">Enter Password</string>
+    <string name="cnfrmPassword">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="loading">Loading…</string>
+</resources>

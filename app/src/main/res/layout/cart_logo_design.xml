@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/cart_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_cart_logo"/>
+
+
+    <ImageView
+        android:id="@+id/notification_circle"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_circle_icon_24dp"/>
+
+    <LinearLayout
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/cart_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWhite"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

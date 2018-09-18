@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zunnorain.telcard_khokha.PurchaseToBeDetails.PurchaseDeatils">
+
+    <include layout="@layout/toolbar_layout"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/operatorinputfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:errorEnabled="true"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/operatorEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:inputType="text"
+            android:hint="Select Operator"
+            android:textSize="20sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="13dp">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_card_border"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/drop_down"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_card_border"
+            android:orientation="horizontal"
+            >
+
+            <Spinner
+                android:id="@+id/spinner_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/drop_down"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:paddingLeft="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:textSize="35sp"
+                android:textColor="@color/colorRed"
+                android:id="@+id/dialog_total_price"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rupees"
+                android:textColor="@color/colorRed"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:textSize="15dp"
+            android:id="@+id/per_card_price"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_cart_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/add_to_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:textColor="#0dc207"
+        android:textSize="25dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "7490849334",
+    "firebase_url": "https://telcardkhokha.firebaseio.com",
+    "project_id": "telcardkhokha",
+    "storage_bucket": "telcardkhokha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7490849334:android:627f449b4a4d16a0",
+        "android_client_info": {
+          "package_name": "com.example.zunnorain.telcard_khokha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7490849334-b0ajcl15tfu7mj3erk67fj7ibppuoutu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zunnorain.telcard_khokha",
+            "certificate_hash": "a8f3bf40d90a93d583f20153085cb448c0b18064"
+          }
+        },
+        {
+          "client_id": "7490849334-0c6g6v9jd9o9fe6k20pnlq97lid8n3n3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "7490849334-0c6g6v9jd9o9fe6k20pnlq97lid8n3n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6fG_pLa2rHt0xeicbOwfBqHrL1jvwIRs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7490849334-0c6g6v9jd9o9fe6k20pnlq97lid8n3n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
